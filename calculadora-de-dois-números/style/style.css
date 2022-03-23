@@ -1,0 +1,38 @@
+p {
+    font-size: 20px;
+    font-style: italic;
+    margin: 10px 0;
+    line-height: 25px;
+    font-family: Arial;
+    font-weight: normal;
+}
+
+label {
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    padding: 10px;
+    width: 313px;
+    
+}
+
+.container input {
+    width: 70px;
+    
+}
+
+.container span {
+    padding: 0 15px;
+    font-style: italic;
+    font-size: 20px;
+}
+
+.container label {
+    padding: 15px;
+    line-height: 45px;
+}
